@@ -39,6 +39,7 @@
  div.avatar-container{
   width: 300px;
   height: 300px;
+  padding: 20px;
 
   /* it is optional, for making this div centered in parent*/
   margin: 0 auto;
