@@ -1,36 +1,22 @@
 ---
-layout: page
-description: "Things I find interesting"
+layout: default
+title: About
 ---
+<h1>About me</h1>
+<p>I work for <a href="http://dabapps.co.uk/">DabApps</a> as a Software Engineer, on a wide range
+of web and mobile applications. Previously I studied for a degree in physics.</p>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+<p>I discovered my passion for development while I was working towards my degree at the University of Exeter. With my mathematical background, I began with scientific programming, first in C and later in Python. My first collaborative project was an n-body simulator built with numPy, and rendered with matplotlib.</p>
+
+<p>Later I branched out to other languages and technologies. Java opened the door to developing
+native apps for android, and I've recently been working in javascript, with React, React Native and
+AngularJS. On the backend, we use Django and Django REST framework.</p>
+
+<p>Outside of work and side projects, my interests include surfing, playing music,
+and experiencing all the great culture on offer in Brighton.</p>
+
+
+<div class="avatar-container">
+  <div class="circle-avatar" style="background-image:url(img/profile.jpg)"></div>
 </div>
-<hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}

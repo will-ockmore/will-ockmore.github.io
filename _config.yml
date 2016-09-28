@@ -1,25 +1,25 @@
-# Site settings
-title: ./build
-header-img: img/home-bg.jpg
-email: will.ockmore@gmail.com
-copyright_name: William Ockmore
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username:
-github_username:  will-ockmore
-facebook_username:
-email_username:  will.ockmore@gmail.com
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+# Setup
+title:               Will Ockmore
+description:         'Software developer living in Brighton, UK. Find me on twitter at <a href="https://twitter.com/Will_Ockmore" target="_blank">@will_ockmore</a> or on <a href="https://github.com/will-ockmore">Github</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            10
+paginate_path:       'blog/page:num'
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# About/contact
+author:
+  name:              Will Ockmore
+  url:               https://twitter.com/Will_Ockmore
+  email:             will.ockmore@gmail.com
 
-gems: [jekyll-paginate, jekyll-feed]
+# Custom vars
+version:             1.0.0
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
