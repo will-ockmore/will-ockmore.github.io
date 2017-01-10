@@ -23,3 +23,10 @@ version:             1.0.0
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+# don't clean these from build folder
+keep_files: ['.git', '.static']
+
+# exclude these from build
+exclude: ['build.sh', 'README.md', 'LICENSE.md']
+
