@@ -1,2 +1,3 @@
-# will-ockmore.github.io
-Github pages personal site.
+# willockmore.com
+
+Personal site.

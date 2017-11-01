@@ -1,32 +1,16 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+name: Will Ockmore
+description: Blog on code and other things
+meta_description: "Blog site, by Will Ockmore"
 
-# Setup
-title:               Will Ockmore
-description:         'Software developer living in Brighton, UK. Find me on twitter at <a href="https://twitter.com/Will_Ockmore" target="_blank">@will_ockmore</a> or on <a href="https://github.com/will-ockmore">Github</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
-paginate:            10
-paginate_path:       'blog/page:num'
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: ''
+domain_name: 'http://willockmore.com'
+google_analytics: 'UA-XXXXXXXX-X'
+plugins: [jekyll-paginate]
 
-# About/contact
-author:
-  name:              Will Ockmore
-  url:               https://twitter.com/Will_Ockmore
-  email:             will.ockmore@gmail.com
-
-# Custom vars
-version:             1.0.0
-
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-# don't clean these from build folder
-keep_files: ['.git', '.static']
-
-# exclude these from build
-exclude: ['build.sh', 'README.md', 'LICENSE.md']
-
+# Details for the RSS feed generator
+url:            'http://willockmore.com'
+author:         'Will Ockmore'

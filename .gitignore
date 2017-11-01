@@ -3,3 +3,4 @@ node_modules
 Gemfile.lock
 img/original-assets
 build/
+.sass-cache
