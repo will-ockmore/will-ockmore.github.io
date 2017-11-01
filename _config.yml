@@ -1,12 +1,12 @@
-name: Will Ockmore
-description: Blog on code and other things
+name: Will's Blog
+description: coding, life, random ideas
 meta_description: "Blog site, by Will Ockmore"
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: ''
+baseurl: /
 domain_name: 'http://willockmore.com'
 google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
@@ -14,3 +14,9 @@ plugins: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'http://willockmore.com'
 author:         'Will Ockmore'
+
+# don't clean these from build folder
+keep_files: ['.git', '.static']
+
+# exclude these from build
+exclude: ['build.sh', 'README.md', 'LICENSE.md']
