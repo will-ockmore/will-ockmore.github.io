@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About me 
+title: About me
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Hey, I'm a full stack developer based in London. This is my personal blog. Mostly on coding, but with the occasional foray into other topics.
+
+I'm [@will_ockmore](https://twitter.com/will_ockmore) on twitter, and you can reach me at [will.ockmore@gmail.com](mailto:will.ockmore@gmail.com).

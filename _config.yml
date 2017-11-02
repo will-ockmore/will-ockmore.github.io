@@ -1,6 +1,7 @@
 name: Will's Blog
 description: coding, life, random ideas
 meta_description: "Blog site, by Will Ockmore"
+permalink: /:year/:month/:day/:title
 
 markdown: kramdown
 highlighter: rouge
@@ -8,7 +9,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://willockmore.com'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-109176676-1'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
